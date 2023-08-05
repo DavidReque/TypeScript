@@ -1,1 +1,5 @@
-console.log('Hola TypeScript');
+function suma(a: number, b: number) {
+    return a + b
+}
+
+console.log(suma(30, 10))
