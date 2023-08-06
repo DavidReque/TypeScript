@@ -5,3 +5,6 @@
 //Objetos
 //import { thor } from "./objetos";
 //console.log(thor);
+//Type Indexing
+//import { addressHero } from "./objetos";
+//console.log(addressHero);

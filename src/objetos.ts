@@ -29,3 +29,17 @@ function createHero(input: HeroBasicInfo): Hero {
 }
 
 export const thor = createHero({name: 'Thor', age: 2500})
+
+//Type Indexing
+type HeroPlaces = {
+    isActive: boolean,
+    address: {
+        planet: string,
+        city: string
+    }
+}
+
+export const addressHero: HeroPlaces['address'] = {
+    planet: 'Tierra',
+    city: 'NY'
+}
