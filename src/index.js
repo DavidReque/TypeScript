@@ -1,5 +1,6 @@
 "use strict";
-function suma(a, b) {
-    return a + b;
+//Funciones
+function mult(a, b) {
+    return a * b;
 }
-console.log(suma(30, 10));
+//console.log(mult(5, 5));
